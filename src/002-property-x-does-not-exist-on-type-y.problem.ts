@@ -1,4 +1,9 @@
-const user = {
+type User = {
+  name: string;
+  age?: number;
+}
+
+const user: User = {
   name: "Matt",
 };
 

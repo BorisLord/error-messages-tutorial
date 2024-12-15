@@ -1,3 +1,3 @@
 class User {
-  private username: string;
+  private username?: string;
 }
